@@ -25,7 +25,6 @@
     },
     "require": {
         "php": ">=7.2 | >= 8.0", 
-	"oomphinc/composer-installers-extender":"*",
         "league/flysystem-aws-s3-v3": "*",
         "league/flysystem-memory": "*",
         "php-opencloud/openstack": "*", 
@@ -35,12 +34,6 @@
 	"league/flysystem": "*",
         "nyholm/dsn": "*",
 	"webalternatif/flysystem-dsn":"*"
-    },
-    "suggest": {          
-		   
-    },
-    "autoload": {
-    
     },
 
   "config": {  
