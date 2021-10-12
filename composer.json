@@ -1,0 +1,49 @@
+{
+    "name": "vendor-patch/openswift-openstack-vendor-packages",
+    "type": "metapackage",
+    "description": "Shared Frdlweb Dependencies",
+    "keywords": [ "webfan-module" ,   "webfan-bundle" ,  "webfan-shared", "webfan-codebase" , "openswift", "openstack"],
+    "homepage": "http://frdlweb.org",
+    "license": "MIT",
+     "minimum-stability":"dev",
+    "authors": [
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com"
+        },
+        {
+            "name": "Till Wehowski",
+            "email": "software@frdl.de",
+            "homepage": "https://frdlweb.org",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "docs": "https://frdlweb.org/vendor-patch/openswift-openstack-vendor-packages",
+        "issues": "https://github.com/vendor-patch/openswift-openstack-vendor-packages/issues",
+        "source": "https://github.com/vendor-patch/openswift-openstack-vendor-packages"
+    },
+    "require": {
+        "php": ">=7.2 | >= 8.0", 
+	"oomphinc/composer-installers-extender":"*",
+        "league/flysystem-aws-s3-v3": "*",
+        "league/flysystem-memory": "*",
+        "php-opencloud/openstack": "*", 
+        "vimeo/psalm": "*",
+        "webalternatif/flysystem-failover-bundle": "*",
+        "webalternatif/flysystem-openstack-swift": "*"		,
+	"league/flysystem": "*",
+        "nyholm/dsn": "*",
+	"webalternatif/flysystem-dsn":"*"
+    },
+    "suggest": {          
+		   
+    },
+    "autoload": {
+    
+    },
+
+  "config": {  
+    "platform-check": false
+  } 	
+}
