@@ -1,6 +1,6 @@
 {
     "name": "vendor-patch/openswift-openstack-vendor-packages",
-    "type": "webfan-bundle",
+    "type": "library",
     "description": "Shared Frdlweb Dependencies",
     "keywords": [ "webfan-module" ,   "webfan-bundle" ,  "webfan-shared", "webfan-codebase" , "openswift", "openstack"],
     "homepage": "http://frdlweb.org",
